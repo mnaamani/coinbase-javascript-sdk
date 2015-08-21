@@ -11,7 +11,7 @@
           Coinbase.oauth.authorize({
             clientId: "7b33345e3f8864e2c2d641c00f993a0c4e6e43fa35feeaa747813e473745abd8",
             scopes: "send",
-            meta: { send_limit_amount: "100", send_limit_currency: "USD", send_limit_period: "per_month" },
+            meta: { send_limit_amount: "100", send_limit_currency: "USD", send_limit_period: "month" },
             success: function (result) {
               alert("Code: " + result.code);
             }
